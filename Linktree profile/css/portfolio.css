@@ -1,0 +1,129 @@
+body {
+    background: linear-gradient(-45deg, #202ff7, #3c3fe0, #04bd13, rgba(9, 231, 27));
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    animation: gradient 15s ease infinite;
+    height: 100% !important
+}
+
+.card {
+    margin: 5px;
+    width: 75%;
+    text-align: center
+}
+
+.card-body {
+    font-weight: bolder
+}
+
+.container.card-wrapper {
+    background: rgba(255, 255, 255, .9);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 50px 0;
+    padding: 50px;
+    width: 75%;
+}
+
+.row img {
+    height: 180px;
+    width: 200px
+}
+
+.card-radius {
+    border-radius: 50px
+}
+
+.row.mx-auto .logo-wrap {
+    margin: 0 auto
+}
+
+@media only screen and (min-width:320px) and (max-width:338px) {
+    .container.card-wrapper {
+        width: 100%
+    }
+
+    body {
+        height: 100% !important;
+        animation: gradient 15s ease infinite
+    }
+}
+
+@media only screen and (min-width:340px) and (max-width:480px) {
+    body {
+        height: 100% !important;
+        animation: gradient 15s ease infinite
+    }
+
+    .container.card-wrapper {
+        width: auto
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:980px) {
+    .container.card-wrapper {
+        width: auto !important
+    }
+}
+
+@media only screen and (min-width:982px) and (max-width:1024px) {
+    .container.card-wrapper {
+        width: 75% !important
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    .container.card-wrapper {
+        width: 75% !important
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0 50%
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:320px) {
+    .container.card-wrapper {
+        width: auto
+    }
+
+    body {
+        height: 100% !important;
+        animation: gradient 15s ease infinite
+    }
+}
+
+@media only screen and (min-width: 582px) and (max-width: 767px) {
+    .container.card-wrapper {
+        width: auto
+    }
+}
+
+.divider{
+    border-top: 1px solid rgba(0,0,0,0.3);
+    vertical-align: middle;
+    width: 50%;
+    margin: 30px auto;
+}
+.card-logo{
+    width: 180px!important;
+    height: 180px !important;
+    text-align: center;
+}
+
+.card-title-head {
+    margin: auto;
+}
+footer{
+    padding: 20px;
+}   
